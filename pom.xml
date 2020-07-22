@@ -495,4 +495,15 @@
             </reporting>
         </profile>
     </profiles>
+   
+    <distributionManagement>
+        
+        <snapshotRepository>
+            <id>Maven-snapshot</id>
+            <name>Maven-snapshot</name>
+            <url>http://localhost:8081/repository/Maven-snapshot/</url>
+            
+        </snapshotRepository>
+        
+    </distributionManagement>
 </project>
